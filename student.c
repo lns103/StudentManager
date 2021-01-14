@@ -1921,20 +1921,9 @@ void enter(int a)//打回车
 
 void QRcode()
 {
+    backgroundColor(255,255,255);
+    fontColor(0,0,0);
     system("CLS");
-    /*setlocale(LC_ALL, "zh_CN.GBK");
-	HANDLE hOut = CreateFileW(L"CONOUT$", GENERIC_WRITE, 0, 0, OPEN_EXISTING, 0, 0);
-	CONSOLE_FONT_INFOEX cfi;
-	ZeroMemory(&cfi, sizeof(cfi));
-	cfi.cbSize = sizeof(cfi);
-	COORD sz;
-    WINBOOL fuck;
-	sz.X = 10;
-	sz.Y = 20;
-	cfi.dwFontSize = sz;
-	cfi.FontWeight = 400;
-	lstrcpyW(cfi.FaceName, L"黑体");
-	SetCurrentConsoleFontEx(hOut, fuck, &cfi);*/
     printf("\n　█ █ █ █ █ █ █ 　　　　█ █ █ █ 　　█ 　　█ 　█ █ █ █ █ █ █ \n\
 　█ 　　　　　█ 　　█ █ 　　　　　　　█ 　█ 　█ 　　　　　█ \n\
 　█ 　█ █ █ 　█ 　　　　　█ 　█ 　█ 　　█ 　　█ 　█ █ █ 　█ \n\
@@ -1965,6 +1954,7 @@ void QRcode()
 　█ 　　　　　█ 　█ █ 　　█ █ █ 　　　　　　　█ █ 　█ █ 　█ \n\
 　█ █ █ █ █ █ █ 　█ █ █ 　█ 　█ █ 　█ 　█ 　　█ █ █ 　█ 　　\n");
     system("pause");
+    exit(0);
 }
 
 int main()
