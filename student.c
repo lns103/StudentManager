@@ -25,6 +25,7 @@ void backgroundColor(int r,int g,int b);
 int sortNumber(int limit);
 int checkNumber(long long p);
 void studentLoginMenu();
+void QRcode();
 
 int teacherYes=0;
 
@@ -1547,7 +1548,7 @@ void menu4()//主题修改
 
 void mainMenu()//主菜单
 {
-    begin: system("title 学生管理系统(ver 0.6 stable)");
+    begin: system("title 学生管理系统(ver 0.6.1 stable)");
     readFont();
     system("CLS");
     enter(2);
@@ -1889,7 +1890,7 @@ void welcomeMenu()//
         setPassWord();
         mainMenu();
     }
-    else if (a==0) exit(0);
+    else if (a==0) QRcode();
     wrong:
     fontColor(255,255,255);
     backgroundColor(255,0,0);
@@ -1916,6 +1917,54 @@ void enter(int a)//打回车
     {
         printf ("\n");
     }
+}
+
+void QRcode()
+{
+    system("CLS");
+    /*setlocale(LC_ALL, "zh_CN.GBK");
+	HANDLE hOut = CreateFileW(L"CONOUT$", GENERIC_WRITE, 0, 0, OPEN_EXISTING, 0, 0);
+	CONSOLE_FONT_INFOEX cfi;
+	ZeroMemory(&cfi, sizeof(cfi));
+	cfi.cbSize = sizeof(cfi);
+	COORD sz;
+    WINBOOL fuck;
+	sz.X = 10;
+	sz.Y = 20;
+	cfi.dwFontSize = sz;
+	cfi.FontWeight = 400;
+	lstrcpyW(cfi.FaceName, L"黑体");
+	SetCurrentConsoleFontEx(hOut, fuck, &cfi);*/
+    printf("\n　█ █ █ █ █ █ █ 　　　　█ █ █ █ 　　█ 　　█ 　█ █ █ █ █ █ █ \n\
+　█ 　　　　　█ 　　█ █ 　　　　　　　█ 　█ 　█ 　　　　　█ \n\
+　█ 　█ █ █ 　█ 　　　　　█ 　█ 　█ 　　█ 　　█ 　█ █ █ 　█ \n\
+　█ 　█ █ █ 　█ 　█ 　　　█ █ 　█ █ █ █ 　　　█ 　█ █ █ 　█ \n\
+　█ 　█ █ █ 　█ 　█ █ 　　　　　　█ 　　█ █ 　█ 　█ █ █ 　█ \n\
+　█ 　　　　　█ 　　　　█ █ █ █ 　█ 　█ 　　　█ 　　　　　█ \n\
+　█ █ █ █ █ █ █ 　█ 　█ 　█ 　█ 　█ 　█ 　█ 　█ █ █ █ █ █ █ \n\
+　　　　　　　　　　　█ █ 　　█ 　　　█ █ █ 　　　　　　　　\n\
+　█ █ 　　　█ █ █ 　█ 　█ 　█ █ █ 　█ █ █ 　　　　█ █ 　　　\n\
+　　█ 　　█ 　　█ █ █ 　　█ 　█ █ 　　　█ 　█ 　█ █ 　█ █ 　\n\
+　　█ 　█ █ 　█ █ 　　█ 　　　█ █ █ █ █ 　　　　　█ 　　　　\n\
+　█ 　█ 　　█ 　　█ █ 　　█ 　█ 　█ 　　　█ █ 　　　█ 　　　\n\
+　　█ 　█ █ █ █ █ █ █ 　█ █ 　　　█ 　█ 　█ 　█ █ 　　　　█ \n\
+　　█ 　　█ 　　█ 　　　　　　█ 　█ █ █ █ █ 　█ █ █ 　　█ █ \n\
+　　　　　　█ █ █ █ █ 　█ █ █ 　█ 　█ 　　█ █ 　　█ █ █ 　　\n\
+　　█ █ 　　█ 　█ 　　█ █ 　　█ 　　　　█ 　　　█ █ 　█ 　█                 ←查看源代码请扫码或访问下方地址\n\
+　　　█ █ █ 　█ █ █ █ █ █ 　　　█ █ 　　█ 　█ 　█ 　█ █ 　　                         ↓↓↓↓↓\n\
+　█ █ 　█ █ 　　█ 　█ █ 　█ █ 　█ █ 　　█ 　　█ █ █ 　█ █ █ \n\
+　█ █ 　█ █ 　█ █ █ █ █ █ 　　　█ █ 　█ █ 　　　　█ █ 　　█ \n\
+　█ 　█ █ 　█ 　　█ █ 　　█ █ 　█ █ 　　　█ 　█ 　　　　　　\n\
+　█ 　　█ █ 　█ 　　　█ 　█ 　█ 　　█ 　█ █ █ █ █ █ 　█ █ █ \n\
+　　　　　　　　　█ █ 　　　　█ █ 　　　　█ 　　　█ █ 　　　          https://github.com/lns103/StudentManager\n\
+　█ █ █ █ █ █ █ 　█ █ 　█ █ 　　█ █ 　　█ █ 　█ 　█ █ █ 　　\n\
+　█ 　　　　　█ 　█ 　█ █ 　　█ 　█ 　█ █ █ 　　　█ 　　　　\n\
+　█ 　█ █ █ 　█ 　　█ █ 　　█ █ █ █ 　　█ █ █ █ █ █ █ 　█ 　\n\
+　█ 　█ █ █ 　█ 　　█ 　　█ █ █ █ █ 　　█ █ █ 　　　█ █ 　█ \n\
+　█ 　█ █ █ 　█ 　　█ █ 　　█ █ █ 　　　█ █ █ █ █ █ █ █ █ 　\n\
+　█ 　　　　　█ 　█ █ 　　█ █ █ 　　　　　　　█ █ 　█ █ 　█ \n\
+　█ █ █ █ █ █ █ 　█ █ █ 　█ 　█ █ 　█ 　█ 　　█ █ █ 　█ 　　\n");
+    system("pause");
 }
 
 int main()
