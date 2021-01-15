@@ -25,8 +25,8 @@
 
 ## 预览图
 
-![image](https://www.justlll.tk/myHomework/imgPreview/welcomeMenu.png?raw=true)
-![image](https://www.justlll.tk/myHomework/imgPreview/mainMenu.png?raw=true)
+![image](/imgPreview/welcomeMenu.png)
+![image](/imgPreview/mainMenu.png)
 ![image](https://www.justlll.tk/myHomework/imgPreview/color.png)
 ![image](https://www.justlll.tk/myHomework/imgPreview/font.png)
 ![image](https://www.justlll.tk/myHomework/imgPreview/color2.png)
