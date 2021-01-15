@@ -24,5 +24,12 @@
 
 ## 预览图
 
+![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/welcomeMenu.png)
+![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/mainMenu.png)
+![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/color.png)
+![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/font.png)
+![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/color2.png)
+![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/information.png)
+![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/exit.png)
 
 （待添加）
