@@ -25,12 +25,14 @@
 
 ## 预览图
 
-![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/welcomeMenu.png)
-![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/mainMenu.png)
-![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/color.png)
-![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/font.png)
-![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/color2.png)
-![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/information.png)
-![image](https://github.com/lns103/StudentManager/blob/main/imgPreview/exit.png)
+(图片地址换成了自己的小vps，防止因为墙的原因无法显示图片)
+
+![image](https://www.justlll.tk/myHomework/imgPreview/welcomeMenu.png)
+![image](https://www.justlll.tk/myHomework/imgPreview/mainMenu.png)
+![image](https://www.justlll.tk/myHomework/imgPreview/color.png)
+![image](https://www.justlll.tk/myHomework/imgPreview/font.png)
+![image](https://www.justlll.tk/myHomework/imgPreview/color2.png)
+![image](https://www.justlll.tk/myHomework/imgPreview/information.png)
+![image](https://www.justlll.tk/myHomework/imgPreview/exit.png)
 
 （待添加）
