@@ -24,14 +24,14 @@
 9. 退出时显示本项目地址 o(*￣▽￣*)ブ
 
 ## 预览图
-
+👉[**看不到图片点这里**](https://www.justlll.tk/myHomework/imgPreview/ "本人的小vps")👈
 ![image](/imgPreview/welcomeMenu.png)
 ![image](/imgPreview/mainMenu.png)
-![image](https://www.justlll.tk/myHomework/imgPreview/color.png)
-![image](https://www.justlll.tk/myHomework/imgPreview/font.png)
-![image](https://www.justlll.tk/myHomework/imgPreview/color2.png)
-![image](https://www.justlll.tk/myHomework/imgPreview/information.png)
-![image](https://www.justlll.tk/myHomework/imgPreview/exit.png)
+![image](/imgPreview/color.png)
+![image](/imgPreview/font.png)
+![image](/imgPreview/color2.png)
+![image](/imgPreview/information.png)
+![image](/imgPreview/exit.png)
 
 （待添加）
 
