@@ -25,6 +25,7 @@
 
 ## 预览图
 👉[**看不到图片点这里**](https://www.justlll.tk/myHomework/imgPreview/ "本人的小vps")👈
+
 ![image](/imgPreview/welcomeMenu.png)
 ![image](/imgPreview/mainMenu.png)
 ![image](/imgPreview/color.png)
