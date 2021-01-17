@@ -24,7 +24,9 @@
 9. 退出时显示本项目地址 o(*￣▽￣*)ブ
 
 ## 预览图
-👉[**看不到图片点这里**](https://www.justlll.tk/myHomework/imgPreview/ "本人的小vps")👈
+由于GitHub相关资源库DNS解析被投毒，你大概率看不到下面的图片(如果没有修改host或使用代理的话)   
+👉[**看不到图片点这里**](https://www.justlll.tk/myHomework/imgPreview/ "本人的小vps")👈   
+<a href="https://www.justlll.tk/myHomework/imgPreview/" target="_blank">**看不到图片点这里**</a>
 
 ![image](/imgPreview/welcomeMenu.png)
 ![image](/imgPreview/mainMenu.png)
