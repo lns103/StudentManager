@@ -25,8 +25,8 @@
 
 ## 预览图
 由于GitHub相关资源库DNS解析被投毒，你大概率看不到下面的图片(如果没有修改host或使用代理的话)   
-👉[**看不到图片点这里**](https://www.justlll.tk/myHomework/imgPreview/ "本人的小vps")👈   
-<a href="https://www.justlll.tk/myHomework/imgPreview/" target="_blank">**看不到图片点这里**</a>
+👉[**看不到图片请点这里**](https://www.justlll.tk/myHomework/imgPreview/ "本人的小vps")👈   
+跳转到本人可怜的小vps😛
 
 ![image](/imgPreview/welcomeMenu.png)
 ![image](/imgPreview/mainMenu.png)
